@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="conn">
+        <div class="contact-container">
+            <div class="content">
+                <div class="right-side">
+                    <div class="topic-text" id="contact_topic_text">Weaver Solver
+                    </div>
+                    <p id="contact_message" style="margin-top: 5px;">If you get stuck, enter the first and last words
+                        and generate the ladder.
+                    </p>
+
+                    <form method="post">
+                        <div class="input-box">
+                            <input type="text" placeholder="Enter the First Word" id="first">
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="Enter the Last Word" id="last">
+                        </div>
+                        <div class="button">
+                            <input id="btn" type="button" value="Solve">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="conn">
+        <div class="result-container" style="margin-top: 0%;">
+            <div id="result"></div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
